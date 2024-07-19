@@ -2,7 +2,7 @@ ARG KUBECTL_VERSION="v1.30.3"
 ARG ADNANH_WEBHOOK_VERSION="2.8.1"
 
 
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 # this sets again as env var and falls back to values defined above
 ARG KUBECTL_VERSION
